@@ -1,0 +1,8 @@
+# Membuat migrasi untuk tabel "users"
+php artisan make:migration create_users_table --create=users
+
+# Setelah menjalankan perintah di atas, akan dibuat file migrasi di direktori database/migrations/
+# Buka file migrasi tersebut dan tambahkan definisi skema tabel
+
+# Membuat model untuk tabel "users"
+php artisan make:model User 
